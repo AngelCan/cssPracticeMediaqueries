@@ -1,0 +1,32 @@
+.menu{
+    color: black;
+    align-content: space-around;
+}
+.menu ul{
+    align-content: space-around;
+    display: inline-block;
+}
+.menu li{
+    display: inline-block;
+    flex-direction: column;
+}
+.cuadro{
+    background-color: gray;
+    width: 100rem;
+    height: 200px;
+}
+.images{
+    align-items: center;
+}
+.temporada{
+    background-image: url(../imagenes/calltoaction.jpg);
+    color: white;
+}
+.temporada a{
+    text-decoration: none;
+    color: black;
+}
+.homeFooter{
+    background-color: gray;
+    color:white;
+}
