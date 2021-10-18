@@ -1,6 +1,14 @@
 .menu{
     color: black;
     align-content: space-around;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 45px;
+}
+.menu button{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 35px;
+    background-color: white;
+    border: none;
 }
 .menu ul{
     align-content: space-around;
@@ -11,22 +19,61 @@
     flex-direction: column;
 }
 .cuadro{
-    background-color: gray;
-    width: 100rem;
+    background-color: #F7F7F7;
+    width: 94rem;
     height: 200px;
 }
+.texto{
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+.texto h1{
+    font-size: 45px;
+}
+.texto h2{
+    font-size: 35px;
+}
+.texto button{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 45px;
+    background-color: #333333;
+    padding: 10px;
+    border: none;
+    color: white;
+}
 .images{
+    padding-left: 100px;
+    align-items: center;
+}
+.images2{
+    padding-left: 120px;
     align-items: center;
 }
 .temporada{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 35px;
     background-image: url(../imagenes/calltoaction.jpg);
+    background-size: 100% ;
     color: white;
+    padding: 20px 20px 150px 20px;
+    background-repeat: no-repeat;
 }
 .temporada a{
     text-decoration: none;
     color: black;
 }
+.temporada h2{
+    font-size: 25px;
+}
+.temporada button{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 45px;
+}
 .homeFooter{
-    background-color: gray;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 25px;
+    background-color: #222222;
     color:white;
+    padding: 20px;
 }
